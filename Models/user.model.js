@@ -1,6 +1,6 @@
 import mongoose, {Schema} from 'mongoose';
 import bcrypt from "bcrypt"
-import userRoute from "../Backend/routes/user.route.js";
+// import userRoute from "../Backend/routes/user.route.js";
 
 const userSchema = new Schema({
     username: {
